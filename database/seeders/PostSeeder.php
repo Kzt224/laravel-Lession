@@ -18,6 +18,7 @@ class PostSeeder extends Seeder
             'name' => Str::random(10),
             'description' => Str::random(100),
             'created_at' => now(),
+            'category_id' => 1,
         ]);
     }
 }
